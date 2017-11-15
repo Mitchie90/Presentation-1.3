@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<!--	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">-->
+	<meta name="viewport" content="width=1024px, initial-scale=1">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="slider">
+	<div class="check">
+		<div class="lables">
+		<input type="radio" name="checc" class="radio" id='fs' checked>
+		<input type="radio" name="checc" class="radio" id='ss'>
+		<input type="radio" name="checc" class="radio" id='ts'>
+			<label id='slideF' for="fs" class='label'></label>
+			<label id='slideS' for="ss" class='label'></label>
+			<label id='slideT' for="ts" class='label'></label>
+		</div>
+	</div>
+		<div class="polosaVert">
+			<div class="sl1">
+				<div class="img1"></div>
+				<p id="textZg">Всегда ли цели терапии СД2 <br>на поверхности?</p>
+				<div class="anim1 trans parall" data-offset ='50'>
+					<div class="anim11"></div>
+					<div class="anim12"></div>
+					<div class="anim13"></div>
+				</div>
+				<p class="target textF">Цель по HbA1c</p>
+				<div class="anim2 trans parall" data-offset ='50'>
+					<div class="anim21"></div>
+					<div class="anim22"></div>
+					<div class="anim23"></div>
+				</div>
+				<p class="gpg textF">Гипогликемия</p>
+				<div class="anim3 trans parall" data-offset ='50'>
+					<div class="anim31"></div>
+					<div class="anim32"></div>
+					<div class="anim33"></div>
+				</div>
+				<p class="sd textF">Осложнения СД</p>
+				<div class="anim4 trans parall" data-offset ='50'>
+					<div class="anim41"></div>
+					<div class="anim42"></div>
+					<div class="anim43"></div>
+				</div>
+				<p class="risks textF">СС риски</p>
+				<div class="next"></div>
+			</div>
+			<div class="sl2">
+				<div class="img2"></div>
+				<p>Основа терапии — <br> патогенез СД2</p>
+				<div class="rocks1 parall" data-offset ='50'>
+					<div class="rock1"></div>
+					<div class="rock2"></div>
+					<div class="rock3"></div>
+					<div class="rock4"></div>
+				</div>
+				<div class="next"></div>
+			</div>
+			<div class="sl3">
+				<div class="img3"></div>
+				<input type="range" id="range" value="100" min="0" max="100" step="1">
+				<progress min='0' max="100" value="100" id="progressbar"></progress>
+				<div class="ears">
+					<p class='ear2016'>1988</p>
+					<p class="ear2009">2009</p>
+					<p class="ear1988">2016</p>
+				</div>
+				<div class="backgr">
+					<div class="polosaHor">
+						<div class="bsl1">
+							<div class="fone1"></div>
+							<div class="icons1"></div>
+							<div class="rocks11"></div>
+							<p>Звенья патогенеза СД2</p>
+						</div>
+						<div class='bsl2'>
+							<div class="fone2"></div>
+							<div class="icons2"></div>
+							<div class="rocks2"></div>
+							<div class="text2"></div>
+						</div>
+						<div class='bsl3'>
+							<p>Звенья патогенеза СД2</p>
+							<div class="fone3"></div>
+							<div class="icons3"></div>
+							<div class="rocks3"></div>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js.js"></script>
+</body>
+</html>
